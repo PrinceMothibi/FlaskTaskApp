@@ -2,7 +2,6 @@ from crypt import methods
 from email.policy import default
 import imp
 import re
-#from django.shortcuts import redirect
 from flask import Flask, render_template, request, url_for, redirect
 from flask_sqlalchemy import SQLAlchemy
 import sqlalchemy
